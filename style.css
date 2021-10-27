@@ -1,0 +1,271 @@
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    padding-top: 50px;
+    font-size: 30px;
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+/*検索バナー*/
+.banner{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1.5px solid black;
+    z-index: 2000;
+}
+.kuuhaku{
+    height: 100px;
+}
+
+/*虫眼鏡マーク*/
+.sample2Area{
+    margin-right: 20px;
+    margin-top: 13px;
+    float: right;
+}
+.sample2Text {
+    text-align: center;
+    position: relative;
+    width              : 800px;
+    height: 70px;           
+    background-image : url(./images/kensaku.png);  
+    background-repeat  : no-repeat;        
+    background-position: 8px center;      
+    background-size    : auto 60%;       
+    background-color   : rgba(163, 162, 162, 0.287);                           */
+    margin : 0 auto;          
+    margin-top: 30px;            
+    border : 1px solid #666;  
+    border-radius: 6px;             
+    color: #555;            
+    font-size: 24px;            
+    letter-spacing : 0.1em;           
+    font-weight : bold;           
+    outline : 0;              
+  }
+   
+  .sample2Text:focus {
+    background-color     : #cfe7ff;     
+  }
+
+  .sample2Text::-ms-clear {
+    display        : none;              
+  }
+
+.clip-box-a {
+    font-size: 15px;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 35px 15px 25px;
+    width: 90%; /* ボックス幅 */
+    background-color: #fff; /* ボックス背景色 */
+    color: #555555; /* 文章色 */
+    border: 1px solid #ccc; /* 枠線 */
+    box-shadow: 1px 1px 1px #acacac; /* 影の色 */
+}
+.clip-box-a::before {
+    position: absolute;
+    content: '';
+    top: -15px;
+    right: 10px;
+    height: 55px;
+    width: 15px;
+    border: 3px solid #555555; /*クリップ色 */
+    background-color: none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px #999;
+    transform: rotate(10deg);
+    z-index: 1;
+}
+.clip-box-a::after {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 10px; 
+    right: 20px;
+    border: solid 5px #fff; /*背景色と同じ色にする*/
+    z-index: 2;
+}
+
+/*Youtube表示（サムネ、タイトル等）*/
+.thumbnail{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.result{
+    margin: 50px auto;
+}
+
+.youtube-title{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/*MP3ボタン*/
+.dwnld-button{
+    margin:20px auto;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+a.btn-border {
+    text-align: center;
+    font-size: 40px;
+    width: 500px;
+    height: 130px;
+    padding-top: 35px;
+    margin-top: 30px;
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+    -webkit-box-shadow: 4px 4px 0 #000;
+    box-shadow: 4px 4px 0 #000;
+  }
+  
+  a.btn-border:hover {
+    -webkit-box-shadow: -4px -4px 0 #000;
+    box-shadow: -4px -4px 0 #000;
+  }
+
+/*タイトルチェンジテキストボックス*/
+.title-changer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    margin-top: 200px;
+    margin-bottom: -50px;
+    border-bottom: 1.5px solid black;
+}
+#title-change{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    height: 100px;
+    width: 90%;
+    margin-top: 100px;
+    border:2px solid #000;
+    -webkit-box-shadow: 4px 4px 0 #000;
+    box-shadow: 4px 4px 0 #000;
+
+}
+
+
+/*Result　検索結果　見出し*/
+.midashi {
+    font-size: 100px;
+    border-bottom: 2px solid rgb(114, 114, 114);
+    margin-top: 30px;
+    }
+    
+    .big {
+    font-size: 130px;
+    }
+.sub-title{
+    font-size: 50px;
+    padding-left: 10px;
+    padding-bottom: 30%;
+}
+/*マニュアル*/
+.manual{
+    font-size: 20px;
+}
+.img{
+    position: relative;
+}
+.opa{
+    margin-right: 20px;
+    background-color: rgba(153, 153, 153,0.3);
+}
+
+/*フッターメニュー*/
+.menu-text{
+    font-size: 30px;
+}
+ul.footer-menu{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: #e4e4e4;
+    border-top: 2px solid #808080;
+    border-bottom:2px solid #808080;
+    z-index: 30;
+}
+ul.footer-menu li{
+    float: left;
+    width: 25%;
+    background-color: #e4e4e4;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+}
+.footer-menu li a{
+    display: block;
+    color: #808080;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 10px;
+    text-decoration: none;
+}
+.footer-menu li a:hover{
+    color: #a9a9a9;
+}
+.fas{
+    height: 95px;
+}
+.fab{
+    height: 95px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DOWNCON</title>
+        <style>
+            body{
+                background-color: crimson;
+            }
+            p{
+                text-align: center;
+                font-size: 80px;
+                color: white;
+            }
+            span{
+                color: crimson;
+                font-size: 200px;
+                font-weight: 900;
+            }
+            .mm{
+                text-shadow: 1px 0 5px black;
+                text-align: center;
+                position: relative;
+            }
+            .mm img{
+                padding-top: 50%;
+                /*width: 500px;*/
+            }
+            .mm p{
+                position: absolute;
+                top: 50%;
+                right: 5%;
+                left: 5%;
+                text-align: center;
+                -webkit-animation: blink 1s ease-in-out infinite alternate;
+                animation: blink 1s ease-in-out infinite alternate;
+            }
+            @-webkit-keyframes blink{
+                0% {opacity: 0;}
+                100% {opacity: 1;}
+            }
+            @keyframes blink{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+            .keikoku{
+                margin-top: -10px;
+                font-size: 50px;
+                text-align: right;
+            }  
+        </style>
+    </head>
+    <body>
+        <div class="mm">
+            <img src="./images/mark_chuui_illust_904.png" width="100%">
+            <a href="index.html"><p>ご利用の際は<br><span id="ms"> 自己責任 </span><br>でお願いします</p></a>
+        </div>
+        <p class="keikoku">※タップで進みます</p>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </body>
+</html>

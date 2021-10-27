@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOWNCON</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    </head>
+    <body>   <!--メイン-->
+    <main>
+        <!--検索バナー-->
+        <div class="banner">
+                <form onsubmit="geturl()" action="#" class="sample2Area">
+                <input type="text" class="sample2Text" id="search" autocomplete="off" placeholder="URLをいれてね♡">
+            </form>
+            <p id="cuturl"></p>
+        </div>
+<div class="kuuhaku">
+
+</div>
+
+       <!--<div class="clip-box-a">YouTube Downloader はYouTubeに上がっている動画をMP3またはMP4形式でダウンロードできるアプリとなっております。<br>
+        詳しい手順は画面下部に表示されている「やり方」をタップしてご覧ください。</div>-->
+
+
+
+        <!--動画出力画面-->
+        <h2 class="midashi">
+            <span class="big">R</span>esult<span class="sub-title">  -検索結果-</span>
+            </h2>
+        <div class="result">
+        <div class="thumbnail">
+            <iframe id="thum-img" width="100%" height="700px" src=" " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            ※サムネイルが入ります
+            <!--<p class="youtube-title">我らが宮〇くん　ひとり風俗で童〇卒業！？</p>-->
+
+
+            <!--タイトル変更、MP3変換ダウンローダー-->
+            <div class="title-changer">
+                <p>TITLE NAME</p>
+                <input type="text" id="title-change" placeholder="タイトルをいれてね♡">
+                </div>    
+            <div class="dwnld-button">
+                <a href="" class="btn btn-border">MP3 Download</a><br>    
+        </div>
+    </div>
+        </div>
+    </main>
+
+        <!--固定フッターメニュー-->
+        <ul class="footer-menu">
+            <li>
+                <a href="index.html">
+                    <i class="fas fa-home fa-3x"></i><br><span class="menu-text">ホーム</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="manual.html"><i class="fas fa-atlas fa-3x"></i><br><span class="menu-text">やり方</span></a>
+            </li>
+
+            <li>
+                <a href="library.html"><i class="fas fa-history fa-3x"></i><br><span class="menu-text">履歴</span></a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/" target="blank fa-3x"><i class="fab fa-youtube fa-3x"></i><br><span class="menu-text">YouTube</span></a>
+            </li>
+        </ul>
+        <script src="search.js"></script>
+        
+    </body>
+</html>

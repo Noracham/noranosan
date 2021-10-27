@@ -138,6 +138,7 @@ button.btn {
 /*Youtube表示（サムネ、タイトル等）*/
 .thumbnail{
     margin-top: 30px;
+    margin-bottom: 500px;
     font-size: 40px;
 }
 .result{
